@@ -52,3 +52,28 @@ body {
   position: absolute;
   bottom: 0px;
   z-index: 1; }
+
+.modal-header {
+  background-color: #512DA8; }
+
+.modal-body {
+  background-color: #D1C4E9; }
+
+.modal-title {
+  color: #FFFFFF; }
+
+.form-check-label {
+  font-weight: bold;
+  font-size: 15px; }
+
+#sin {
+  font-weight: bold; }
+
+#cans {
+  font-weight: bold; }
+
+.close {
+  color: #fff; }
+
+#re, #ca {
+  font-weight: bold; }

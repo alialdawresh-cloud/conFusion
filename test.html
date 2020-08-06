@@ -31,7 +31,7 @@
                     <li class="nav-item"><a class="nav-link" href="contactus.html"><span class="fa fa-address-card fa-lg"></span> Content </a></li>
                 </ul>
                 <span class="navbar-text">
-                    <a href="#loginModal" id="loginbtn">
+                    <a href="" data-toggle="modal" data-target="#loginModal">
                         <span class="fa fa-sign-in"></span> Login
                     </a>
                 </span>
@@ -68,8 +68,8 @@
                             </div>
                         </div>
                         <div class="form-row">
-                            <button type="button" class="btn btn-secondary btn-sm ml-auto" id="cans" data-dismiss="modal">Cancel</button>
-                            <button type="submit" class="btn btn-primary btn-sm ml-1" id="sin">Sign in</button>        
+                            <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>        
                         </div>
                     </form>
                 </div>
@@ -91,7 +91,7 @@
                     <img src="img/logo.png" class="img-fluid">
                 </div>
                 <div class="col-sm align-self-center">
-                    <button type="button" class="btn btn-lg btn-block bg-warning text-dark font-weight-bold" id="reservebut">
+                    <button type="button" class="btn btn-lg btn-block bg-warning text-dark font-weight-bold"  data-toggle="modal" data-target="#ReserveTable">
                         Reserve Table
                     </button>
                 </div>
@@ -173,10 +173,10 @@
                             </div>
                             <div class="form-group row">
                                 <div class="offset-md-2 col-md-10">
-                                    <button type="submit" class="btn btn-primary" id="re">
+                                    <button type="submit" class="btn btn-primary">
                                         Reserve
                                     </button>
-                                    <button type="button" class="btn btn-secondary ml-auto" id="ca" data-dismiss="modal">
+                                    <button type="button" class="btn btn-secondary ml-auto" data-dismiss="modal">
                                         Cancel
                                     </button>
                                 </div>
@@ -421,29 +421,6 @@
             });
         });
     </script>
-    <script>
-        $(document).ready(function () {
-        $('#reservebut').on('click', function() {
-            $('#ReserveTable').modal('show');
-        }); 
-    });
-    </script>
-<script>
-    $(document).ready(function(){
-         $('#loginbtn').on('click',function(){
-            $('#loginModal').modal('show');
-        });
-    });
-     
-</script>
-<script>
-    $(document).ready(function(){
-        $("#cans").on("click", function(){
-            $("#loginModal").modal("show");
-        });
-     });
-</script>
-   
 </body>
 
 </html>

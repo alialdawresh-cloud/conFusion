@@ -2,6 +2,7 @@ $lt-gray: #ddd;
 $background-dark: #512DA8;
 $background-light: #9575CD;
 $background-pale: #D1C4E9;
+$lt-white : #FFFFFF;
 
 // Height variables
 $carousel-item-height: 300px;
@@ -73,4 +74,34 @@ body{
     position: absolute;
     bottom: 0px;
     z-index: 1;
+}
+
+.modal-header{
+    background-color: $background-dark;
+
+}
+
+.modal-body{
+    background-color: $background-pale;
+}
+
+.modal-title{
+    color:$lt-white;
+
+}
+.form-check-label{
+    font-weight : bold;
+    font-size : 15px;
+}
+#sin{
+    font-weight : bold;
+}
+#cans{
+  font-weight : bold;  
+}
+.close{
+    color:#fff;
+}
+#re , #ca{
+    font-weight : bold;
 }
